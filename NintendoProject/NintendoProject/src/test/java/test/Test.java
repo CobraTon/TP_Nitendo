@@ -12,7 +12,7 @@ import metier.Jeu;
 public class Test {
 
 	public static void main(String[] args) {
-		Console c1 = new Console("Wii");
+		Console c1 = new Console("Wii", 256.90,"2015-08-17");
 		Boutique b1 = new Boutique("Micromania","ch�telet les halles");
 		
 		
