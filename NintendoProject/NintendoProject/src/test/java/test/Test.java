@@ -11,6 +11,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		Console c1 = new Console("Wii");
+		Boutique b1 = new Boutique("Donut Kong");
 		
 		
 		Jeu j1 = new Jeu ("Zelda", c1);
