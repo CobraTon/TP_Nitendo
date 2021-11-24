@@ -8,14 +8,17 @@ import metier.Boutique;
 import metier.Client;
 import metier.Console;
 import metier.Jeu;
+import metier.Portable;
 
 public class Test {
 
 	public static void main(String[] args) {
 		Console c1 = new Console("Wii");
-		Boutique b1 = new Boutique("Micromania","ch�telet les halles");
+		Boutique b1 = new Boutique("Micromania","chatelet les halles");
+		Portable p1 = new Portable("Wii");
 		
 		
+
 		Jeu j1 = new Jeu ("Zelda", b1, c1);
 		Jeu j2 = new Jeu ("Mario kart", b1, c1);
 		Jeu j3 = new Jeu ("Smash", b1, c1);
