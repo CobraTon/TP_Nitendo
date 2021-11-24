@@ -12,14 +12,14 @@ import metier.Client;
 import metier.Console;
 import metier.Jeu;
 import metier.Portable;
+import metier.Salon;
 
 
 public class Test {
 
 	public static void main(String[] args) {
-		Console c1 = new Console("Wii", 256.90,"2015-08-17");
+		Console c1 = new Salon("Wii", 256.90,"2015-08-17");
 		Boutique b1 = new Boutique("Micromania","chatelet les halles");
-		Portable p1 = new Portable("Wii");
 		List<Client> achat = new ArrayList();
 		
 		
